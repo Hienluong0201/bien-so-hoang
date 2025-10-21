@@ -41,8 +41,7 @@ export default function HeaderTop() {
             <FaPhoneAlt />
           </div>
           <div>
-            <p className="text-lg font-semibold text-gray-900">0971 133 799</p>
-            <p className="text-sm text-gray-600">Liên hệ với chúng tôi</p>
+             <p className="text-[12px] font-semibold text-gray-900 leading-tight">0971 133 799</p>
           </div>
         </div>
       </div>
