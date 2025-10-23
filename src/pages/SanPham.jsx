@@ -1,48 +1,63 @@
-import React from "react";
-
 export default function SanPham() {
-  const products = [
-    {
-      name: "Biển số xe ô tô cao cấp",
-      image: "/products/bien-so-oto.jpg",
-      desc: "Chất liệu hợp kim nhôm cao cấp, chống trầy xước, bền bỉ theo thời gian.",
-      price: "450.000₫",
-    },
-    {
-      name: "Khung biển số titan",
-      image: "/products/khung-bien-so-titan.jpg",
-      desc: "Khung titan chống gỉ, màu sắc nổi bật và sang trọng.",
-      price: "550.000₫",
-    },
-    {
-      name: "Khung biển số xe máy CNC",
-      image: "/products/bien-so-xe-may.jpg",
-      desc: "Thiết kế tinh xảo, ôm sát biển, bảo vệ tuyệt đối.",
-      price: "250.000₫",
-    },
+  const items = [
+    { truoc: "/anh1.png", sau: "/anh1.png" },
+    { truoc: "/anh1.png", sau: "/anh1.png" },
+    { truoc: "/anh1.png", sau: "/anh1.png" },
+    { truoc: "/anh1.png", sau: "/anh1.png" },
+    { truoc: "/anh1.png", sau: "/anh1.png" },
+    { truoc: "/anh1.png", sau: "/anh1.png" },
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-10 px-6 md:px-20">
-      <h1 className="text-3xl font-bold text-red-700 mb-6 uppercase">Sản phẩm</h1>
+    <div className="max-w-7xl mx-auto px-4 md:px-8 py-10">
+      {/* Tiêu đề */}
+      <h1 className="text-3xl font-bold text-center mb-10 text-gray-800">
+        Phục Hồi Biển Số
+        <div className="flex justify-center mt-3">
+          <div className="w-16 h-1 bg-red-600 rounded"></div>
+        </div>
+      </h1>
 
-      <p className="text-gray-700 mb-8">
-        Dưới đây là những sản phẩm nổi bật của{" "}
-        <span className="text-red-600 font-semibold">Biển số Hoàng</span>. Tất cả đều được
-        lựa chọn kỹ lưỡng, đảm bảo chất lượng và độ bền cao.
-      </p>
-
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {products.map((p, index) => (
+      {/* Grid các cặp ảnh */}
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {items.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl shadow-md overflow-hidden border-t-4 border-red-600 hover:shadow-lg transition"
+            className="bg-white border-4 border-gray-200 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition transform hover:-translate-y-1"
           >
-            <img src={p.image} alt={p.name} className="w-full h-52 object-cover" />
-            <div className="p-4">
-              <h2 className="text-lg font-semibold text-gray-800 mb-1">{p.name}</h2>
-              <p className="text-sm text-gray-600 mb-2">{p.desc}</p>
-              <p className="text-red-600 font-bold">{p.price}</p>
+            {/* Khung trên */}
+            <div className="grid grid-cols-2 gap-0">
+              {/* Trước */}
+              <div className="relative border-r-2 border-gray-100">
+                <img
+                  src={item.truoc}
+                  alt="Ảnh trước"
+                  className="w-full h-56 object-cover transition duration-500 hover:scale-105"
+                />
+                <div className="absolute top-2 left-2 bg-blue-700 text-white font-bold text-sm px-4 py-1 rounded-lg shadow">
+                  TRƯỚC
+                </div>
+              </div>
+
+              {/* Sau */}
+              <div className="relative">
+                <img
+                  src={item.sau}
+                  alt="Ảnh sau"
+                  className="w-full h-56 object-cover transition duration-500 hover:scale-105"
+                />
+                <div className="absolute top-2 left-2 bg-red-600 text-white font-bold text-sm px-4 py-1 rounded-lg shadow">
+                  SAU
+                </div>
+              </div>
+            </div>
+
+            {/* Dòng ghi chú */}
+            <div className="p-4 bg-gray-50 border-t text-center">
+              <p className="text-gray-700 text-sm">
+                So sánh kết quả trước và sau khi phục hồi biển số tại{" "}
+                <span className="text-red-600 font-semibold">Biển Số Hoàng</span>
+              </p>
             </div>
           </div>
         ))}

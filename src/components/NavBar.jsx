@@ -7,7 +7,7 @@ const links = [
   { href: "/gioi-thieu", label: "GIỚI THIỆU" },
   { href: "/dich-vu", label: "DỊCH VỤ" },
   { href: "/san-pham", label: "SẢN PHẨM" },
-  { href: "/phu-kien", label: "PHỤ KIỆN" },
+  { href: "/cua-hang", label: "Cửa Hàng" },
   { href: "/blog", label: "BLOG" },
   { href: "/khuyen-mai", label: "KHUYẾN MẠI" },
   { href: "/lien-he", label: "LIÊN HỆ" },
