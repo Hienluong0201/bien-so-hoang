@@ -6,7 +6,7 @@ export default function Blog() {
     {
       slug: "chon-khung-bien-so",
       title: "Cách Chọn Khung Biển Số Xe Phù Hợp Và Thẩm Mỹ",
-      image: "https://i.postimg.cc/tC2ZkSTr/khungbien.jpg",
+      image: "https://i.postimg.cc/rmbMdkGJ/anh202.jpg",
       date: "20/10/2025",
       desc: "Chọn khung biển số phù hợp giúp xe thêm nổi bật và bảo vệ biển số khỏi cong, gãy hay bong tróc. Cùng Biển Số Hoàng tìm hiểu cách chọn khung chất lượng, thẩm mỹ và bền bỉ nhất.",
     },
@@ -27,7 +27,7 @@ export default function Blog() {
     {
       slug: "bien-so-inox-nguyen-khoi",
       title: "Làm Biển Số Xe Bằng Inox Nguyên Khối – Bền Đẹp Vượt Thời Gian",
-      image: "https://i.postimg.cc/ZR0pjJ6s/anh12.png",
+      image: "https://i.postimg.cc/tCG7D3W9/anh203.jpg",
       date: "28/09/2025",
       desc: "Biển số inox nguyên khối là lựa chọn hàng đầu cho những ai yêu thích độ bền và tính sang trọng. Sản phẩm chống gỉ, chống cong gãy và có độ sáng bóng cao.",
     },
