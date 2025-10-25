@@ -7,7 +7,7 @@ const links = [
   { href: "/gioi-thieu", label: "GIỚI THIỆU" },
   { href: "/dich-vu", label: "DỊCH VỤ" },
   { href: "/san-pham", label: "SẢN PHẨM" },
-  { href: "/cua-hang", label: "Cửa Hàng" },
+  { href: "/cua-hang", label: "CỬA HÀNG" },
   { href: "/blog", label: "BLOG" },
   { href: "/khuyen-mai", label: "KHUYẾN MẠI" },
   { href: "/lien-he", label: "LIÊN HỆ" },
@@ -73,12 +73,12 @@ export default function NavBar() {
     href="https://zalo.me/0568050505"
     target="_blank"
     rel="noopener noreferrer"
-    className="bg-red-600 p-2 rounded-full"
+    
   >
     <img
-      src="/zalo-icon.png"
+      src="https://i.postimg.cc/SKnzHyKD/Logo-Zalo-Arc.webp"
       alt="Zalo"
-      className="h-5 w-5 invert"
+      className="h-5 w-5 "
     />
   </a>
 </div>

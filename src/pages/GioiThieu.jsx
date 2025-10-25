@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function GioiThieu() {
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 py-10">
@@ -11,22 +13,24 @@ export default function GioiThieu() {
         {/* Bài nổi bật */}
         <div className="md:col-span-2 bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden">
           <img
-            src="/anh1.png"
+            src="https://i.postimg.cc/V5P8sNY3/anh1.jpg"
             alt="Giới thiệu Biển Số Hoàng"
             className="w-full h-72 object-cover"
           />
           <div className="p-6">
-            <p className="text-sm text-gray-500 mb-2">📅 22-10-2025</p>
             <h2 className="text-xl font-semibold text-red-600 mb-2">
-              Biển Số Hoàng Chung Tay Hướng Về Miền Trung Thân Yêu
+              Biển Số Hoàng – Dẫn Đầu Trong Dịch Vụ Ép Biển Số Cao Cấp
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              Tinh thần “lá lành đùm lá rách” là truyền thống quý báu của dân tộc Việt Nam.
-              Trước những thiệt hại nặng nề do bão lũ, tập thể cán bộ nhân viên Biển Số Hoàng
-              đã phát động chương trình quyên góp hỗ trợ đồng bào...
-              <a href="#" className="text-red-600 font-medium ml-1 hover:underline">
-                Xem thêm &gt;&gt;
-              </a>
+              <strong>Biển Số Hoàng</strong> là thương hiệu chuyên cung cấp dịch vụ{" "}
+              <strong>ép biển số ô tô, xe máy, phục hồi và làm biển số theo yêu cầu</strong>
+              với chất lượng hàng đầu Việt Nam. Chúng tôi luôn chú trọng đến độ bền, thẩm mỹ
+              và tính an toàn cho từng sản phẩm – mang lại sự hài lòng tuyệt đối cho khách hàng.
+            </p>
+            <p className="text-gray-700 mt-3 leading-relaxed">
+              Với đội ngũ kỹ thuật viên lành nghề, trang thiết bị hiện đại cùng phong cách
+              phục vụ tận tâm, <strong>Biển Số Hoàng</strong> cam kết mang đến sản phẩm hoàn hảo,
+              bảo hành chu đáo và giá cả cạnh tranh nhất.
             </p>
           </div>
         </div>
@@ -34,20 +38,36 @@ export default function GioiThieu() {
         {/* Bài phụ bên phải */}
         <div className="space-y-4">
           <div className="rounded-xl overflow-hidden shadow hover:shadow-lg transition bg-white">
-            <img src="/anh1.png" alt="Về chúng tôi" className="h-36 w-full object-cover" />
+            <img
+              src="https://i.postimg.cc/tJ5KbNML/anh18.png"
+              alt="Về chúng tôi"
+              className="h-36 w-full object-cover"
+            />
             <div className="p-4">
-              <p className="text-sm text-gray-500 mb-1">📅 20-08-2024</p>
-              <h3 className="text-lg font-semibold text-red-600 hover:underline">Về Chúng Tôi</h3>
+              <h3 className="text-lg font-semibold text-red-600 hover:underline">
+                Về Chúng Tôi
+              </h3>
+              <p className="text-gray-600 text-sm mt-2">
+                Từ khi thành lập, Biển Số Hoàng đã phục vụ hàng ngàn khách hàng trên khắp cả nước,
+                được tin tưởng nhờ chất lượng, tốc độ và dịch vụ hậu mãi chu đáo.
+              </p>
             </div>
           </div>
 
           <div className="rounded-xl overflow-hidden shadow hover:shadow-lg transition bg-white">
-            <img src="/anh1.png" alt="Chính sách bảo hành" className="h-36 w-full object-cover" />
+            <img
+              src="https://i.postimg.cc/x8RwQ34B/anh19.png"
+              alt="Chính sách bảo hành"
+              className="h-36 w-full object-cover"
+            />
             <div className="p-4">
-              <p className="text-sm text-gray-500 mb-1">📅 20-08-2024</p>
               <h3 className="text-lg font-semibold text-red-600 hover:underline">
-                Chính Sách Bảo Hành &amp; Đổi Trả
+                Chính Sách Bảo Hành &amp; Hậu Mãi
               </h3>
+              <p className="text-gray-600 text-sm mt-2">
+                Tất cả sản phẩm ép biển số được bảo hành chính hãng. Chúng tôi luôn hỗ trợ sửa chữa
+                hoặc thay mới miễn phí nếu phát sinh lỗi kỹ thuật trong quá trình sử dụng.
+              </p>
             </div>
           </div>
         </div>
@@ -60,26 +80,49 @@ export default function GioiThieu() {
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="md:col-span-2 bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-            <img src="/anh1.png" alt="Khách hàng Huyền Trang" className="w-full h-72 object-cover" />
+            <img
+              src="https://i.postimg.cc/8cH2Gm02/anh20.png"
+              alt="Khách hàng đánh giá"
+              className="w-full h-72 object-cover"
+            />
             <div className="p-6">
-              <p className="text-sm text-gray-500 mb-2">📅 18-06-2024</p>
               <h3 className="text-xl font-semibold text-red-600 mb-2">
-                Diễn viên Huyền Trang – “Biệt dược đen”
+                Hàng ngàn khách hàng tin tưởng lựa chọn Biển Số Hoàng
               </h3>
+              <p className="text-gray-700">
+                “Sản phẩm đẹp, chắc chắn, nhân viên thân thiện, bảo hành rõ ràng. Tôi đã giới thiệu
+                cho rất nhiều người quen!” – <strong>Khách hàng Huyền Trang</strong>.
+              </p>
             </div>
           </div>
 
           <div className="space-y-4">
             {[
-              { name: "Chị Thanh – Chủ hệ thống Spa", date: "04-03-2024" },
-              { name: "NSƯT Trần Đức – 'Bố chồng quốc dân'", date: "04-03-2024" },
-              { name: "Diễn viên Thanh Tú – 'Cháo Lòng'", date: "04-03-2024" },
+              {
+                name: "Chị Thanh – Chủ Spa",
+                feedback: "Ép nhanh, giá tốt, hình thức đẹp – rất hài lòng!",
+              },
+              {
+                name: "Anh Tuấn – Tài xế công nghệ",
+                feedback: "Biển số chắc chắn, mưa gió thoải mái, phục vụ tận tâm.",
+              },
+              {
+                name: "Anh Long – Chủ Garage Auto",
+                feedback: "Làm việc chuyên nghiệp, giao đúng hẹn, bảo hành uy tín.",
+              },
             ].map((item, i) => (
-              <div key={i} className="flex gap-3 items-center bg-white p-3 rounded-lg shadow hover:shadow-md transition">
-                <img src="/anh1.png" className="w-20 h-20 object-cover rounded-md" />
+              <div
+                key={i}
+                className="flex gap-3 items-center bg-white p-3 rounded-lg shadow hover:shadow-md transition"
+              >
+                <img
+                  src="https://i.postimg.cc/LhFp4s99/anh4.jpg"
+                  className="w-20 h-20 object-cover rounded-md"
+                  alt={item.name}
+                />
                 <div>
                   <h4 className="font-semibold text-red-600">{item.name}</h4>
-                  <p className="text-sm text-gray-500">📅 {item.date}</p>
+                  <p className="text-gray-600 text-sm">{item.feedback}</p>
                 </div>
               </div>
             ))}
@@ -90,79 +133,46 @@ export default function GioiThieu() {
       {/* Section: Sự kiện */}
       <section className="mb-16">
         <h2 className="text-2xl font-bold border-b-2 border-red-600 inline-block mb-6">
-          Sự Kiện Biển Số Hoàng
+          Hoạt Động Nổi Bật
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="md:col-span-2 bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-            <img src="/anh1.png" alt="Sự kiện chính" className="w-full h-72 object-cover" />
+            <img
+              src="https://i.postimg.cc/zv1tVHhY/anh13-1.png"
+              alt="Sự kiện thiện nguyện"
+              className="w-full h-72 object-cover"
+            />
             <div className="p-6">
-              <p className="text-sm text-gray-500 mb-2">📅 19-07-2024</p>
               <h3 className="text-xl font-semibold text-red-600 mb-2">
-                Biển Số Hoàng Đồng Hành “Nâng Bước Trẻ Thơ”
+                Biển Số Hoàng Chung Tay Cùng Cộng Đồng
               </h3>
               <p className="text-gray-700">
-                Mỗi chiếc biển số bạn chọn không chỉ là phong cách, mà còn là hành động thiện nguyện – cùng chung tay
-                giúp đỡ trẻ em khó khăn khắp cả nước...
-                <a href="#" className="text-red-600 ml-1 hover:underline">
-                  Xem thêm &gt;&gt;
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            {["Đối tác nói gì về chúng tôi?", "Khai trương chi nhánh mới", "Giải đấu bóng đá nội bộ"].map(
-              (title, i) => (
-                <div
-                  key={i}
-                  className="flex items-center gap-3 bg-white p-3 rounded-lg shadow hover:shadow-md transition"
-                >
-                  <img src="/anh1.png" className="w-24 h-16 rounded-md object-cover" />
-                  <div>
-                    <h4 className="font-semibold text-red-600 leading-snug">{title}</h4>
-                    <p className="text-sm text-gray-500">📅 09-07-2024</p>
-                  </div>
-                </div>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* Section: Báo chí */}
-      <section className="mb-16">
-        <h2 className="text-2xl font-bold border-b-2 border-red-600 inline-block mb-6">
-          Báo Chí Nói Về Biển Số Hoàng
-        </h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="md:col-span-2 bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-            <img src="/anh1.png" alt="Báo chí nói về Biển Số Hoàng" className="w-full h-72 object-cover" />
-            <div className="p-6">
-              <p className="text-sm text-gray-500 mb-2">📅 16-07-2024</p>
-              <h3 className="text-xl font-semibold text-red-600 mb-2">
-                [Báo Kinh Tế & Đô Thị] Biển Số Hoàng Khẳng Định Uy Tín Với Sản Phẩm Chất Lượng
-              </h3>
-              <p className="text-gray-700">
-                Sản phẩm biển số xe cao cấp của Biển Số Hoàng được đánh giá là tiên phong trong thiết kế và độ bền,
-                mang đến trải nghiệm vượt trội cho người dùng...
-                <a href="#" className="text-red-600 ml-1 hover:underline">
-                  Xem thêm &gt;&gt;
-                </a>
+                Chúng tôi luôn hướng đến các hoạt động thiện nguyện và trách nhiệm xã hội:
+                tặng biển số miễn phí cho xe cứu thương, hỗ trợ các tài xế công nghệ khó khăn
+                và góp phần lan tỏa giá trị tốt đẹp.
               </p>
             </div>
           </div>
 
           <div className="space-y-4">
             {[
-              "[Báo Việt Nam Hội Nhập] Biển Số Hoàng – Vững Vàng Phát Triển",
-              "[CafeBiz.vn] CEO Biển Số Hoàng Vinh Dự Nhận Giải",
-              "[Dân Trí] Biển Số Hoàng Liên Kết Hợp Tác Cùng Đối Tác Lớn",
-            ].map((item, i) => (
-              <div key={i} className="flex gap-3 items-center bg-white p-3 rounded-lg shadow hover:shadow-md transition">
-                <img src="/anh1.png" className="w-24 h-16 object-cover rounded-md" />
+              "Khai trương chi nhánh TP.HCM",
+              "Hợp tác cùng các hãng xe trong nước",
+              "Tham gia chương trình an toàn giao thông toàn quốc",
+            ].map((title, i) => (
+              <div
+                key={i}
+                className="flex items-center gap-3 bg-white p-3 rounded-lg shadow hover:shadow-md transition"
+              >
+                <img
+                  src="https://i.postimg.cc/RFs8cgxk/anh9.jpg"
+                  className="w-24 h-16 rounded-md object-cover"
+                  alt={title}
+                />
                 <div>
-                  <h4 className="font-semibold text-red-600 leading-snug">{item}</h4>
-                  <p className="text-sm text-gray-500">📅 18-06-2024</p>
+                  <h4 className="font-semibold text-red-600 leading-snug">
+                    {title}
+                  </h4>
                 </div>
               </div>
             ))}

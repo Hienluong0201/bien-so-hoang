@@ -4,25 +4,32 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 export default function WelcomeSection() {
+  const images = [
+    "https://i.postimg.cc/VLMG6fvT/anh1.jpg",
+    "https://i.postimg.cc/L6fCX95w/anh2.jpg",
+    "https://i.postimg.cc/SN8TsSRt/anh3.jpg",
+    "https://i.postimg.cc/3JpSR8WM/anh5.jpg",
+    "https://i.postimg.cc/dtdH1sDP/anh6.jpg",
+    "https://i.postimg.cc/rpz5DjgG/anh7.jpg",
+  ];
+
   return (
-    <section className="bg-white py-10 index-welcome"> {/* 👈 py-10 thay vì py-16 */}
+    <section className="bg-white py-10 index-welcome">
       <div className="max-w-6xl mx-auto px-4">
         {/* Tiêu đề */}
-        <div className="text-center mb-6"> {/* 👈 giảm từ mb-8 → mb-6 */}
+        <div className="text-center mb-6">
           <h2 className="text-sm md:text-lg font-bold uppercase">
             Chào mừng đến với <span className="text-red-600">Biển Số Hoàng</span>
           </h2>
 
           <p className="text-gray-700 text-sm md:text-base mt-3 max-w-3xl mx-auto leading-relaxed">
-            Biển Số Hoàng – chuyên ép biển số, chăm sóc & bảo dưỡng xe đạt
-            chuẩn, cung cấp dịch vụ ép biển số ô tô, xe máy, đánh bóng, phủ
-            ceramic, nâng cấp phụ kiện ô tô cao cấp, thẩm mỹ và bền bỉ hàng đầu
-            Việt Nam.
+            Biển Số Hoàng – chuyên ép biển số, phục hồi biển số hư nát, gia công mica đạt chuẩn ISO, inox nguyên khối.
+            Cung cấp dịch vụ ép biển số ô tô, xe máy thẩm mỹ – bền bỉ – chuẩn form, cùng giải pháp hoàn thiện biển số chất lượng hàng đầu Việt Nam.
           </p>
         </div>
 
         {/* Slide ảnh */}
-        <div className="wellcome-slide mb-6"> {/* 👈 giảm từ mb-8 → mb-6 */}
+        <div className="wellcome-slide mb-6">
           <Swiper
             spaceBetween={15}
             slidesPerView={3}
@@ -34,7 +41,7 @@ export default function WelcomeSection() {
             speed={3000}
             modules={[Autoplay]}
           >
-            {Array(9).fill("/anh1.png").map((src, i) => (
+            {images.map((src, i) => (
               <SwiperSlide key={i}>
                 <img
                   src={src}
@@ -47,7 +54,7 @@ export default function WelcomeSection() {
         </div>
 
         {/* Nút xem thêm */}
-        <div className="text-center mb-6"> {/* 👈 giảm từ mb-12 → mb-6 */}
+        <div className="text-center mb-6">
           <a
             href="/gioi-thieu"
             className="bg-red-600 text-white px-6 py-3 rounded-md uppercase text-sm font-semibold hover:bg-red-700 transition"

@@ -15,7 +15,11 @@ export default function HeroSection() {
     pauseOnHover: false,
   };
 
-  const banners = ["/anh1.png", "/anh1.png", "/anh1.png"];
+    const banners = [
+    "/anh1.png",
+    "https://i.postimg.cc/V6L5VkrZ/Hoa-ng-Hoa-ng.png",
+    "https://i.postimg.cc/pX9RrFMS/Hoa-ng-Hoa-ng-1.png",
+  ];
 
   return (
     <section className="relative">

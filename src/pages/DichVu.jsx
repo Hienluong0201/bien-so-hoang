@@ -1,189 +1,100 @@
+import React from "react";
+
 export default function DichVu() {
+  const services = [
+    {
+      title: "Ép Biển Số Ô Tô & Xe Máy Cao Cấp",
+      img: "https://i.postimg.cc/RFs8cgxk/anh9.jpg",
+      desc: "Dịch vụ ép biển số bằng mica cao cấp, chống nước, chống cong gãy và phai màu. Biển phẳng tuyệt đối, chuẩn form, thẩm mỹ cao và bảo hành 12 tháng.",
+    },
+    {
+      title: "Làm Biển Số Mới Theo Quy Chuẩn",
+      img: "https://i.postimg.cc/KvyVtk6G/anh11.jpg",
+      desc: "Nhận làm biển số mới theo đúng quy định của Bộ GTVT. Chất liệu inox hoặc nhôm cao cấp, in khắc sắc nét, chính xác từng chi tiết.",
+    },
+    {
+      title: "Phục Hồi Biển Số Cũ – Như Mới 100%",
+      img: "https://i.postimg.cc/LhFp4s99/anh4.jpg",
+      desc: "Khôi phục biển số bị trầy, cong, rách hoặc mờ số. Dịch vụ phục hồi bằng công nghệ ép và làm phẳng chuyên nghiệp giúp biển sáng đẹp như mới.",
+    },
+    {
+      title: "Làm Biển Số Bằng Inox Nguyên Khối",
+      img: "https://i.postimg.cc/ZR0pjJ6s/anh12.png",
+      desc: "Gia công biển số inox nguyên khối chống gãy, chống ố vàng, bền vượt trội. Mặt biển sáng bóng, sang trọng, phù hợp với xe cao cấp.",
+    },
+    {
+      title: "Gắn Cờ Ô Tô, Xe Máy Theo Yêu Cầu",
+      img: "https://i.postimg.cc/V5P8sNY3/anh1.jpg",
+      desc: "Nhận thiết kế và gắn cờ cho xe ô tô, xe máy phục vụ sự kiện, lễ hội, hội nhóm hoặc nhu cầu cá nhân. Chất liệu cờ cao cấp, màu sắc bền đẹp.",
+    },
+    {
+      title: "Bảo Hành, Bảo Dưỡng & Hậu Mãi Chu Đáo",
+      img: "https://i.postimg.cc/8cH2Gm02/anh20.png",
+      desc: "Tất cả sản phẩm tại Biển Số Hoàng đều được bảo hành 12 tháng. Hỗ trợ kiểm tra, ép lại miễn phí nếu có lỗi kỹ thuật hoặc bong mép trong quá trình sử dụng.",
+    },
+  ];
+
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 py-10">
       {/* Tiêu đề */}
       <h1 className="text-3xl font-bold border-b-2 border-red-600 inline-block mb-8">
-        Dịch Vụ
+        Dịch Vụ Của Biển Số Hoàng
       </h1>
 
-      {/* Khu vực bài nổi bật + danh sách bài */}
-      <div className="grid md:grid-cols-3 gap-6 mb-16">
-        {/* Bài nổi bật */}
-        <div className="md:col-span-2 bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-          <img
-            src="/anh1.png"
-            alt="Dịch vụ phục hồi xe tai nạn"
-            className="w-full h-72 object-cover"
-          />
-          <div className="p-6">
-            <p className="text-sm text-gray-500 mb-2">📅 01-10-2025</p>
-            <h2 className="text-xl font-semibold text-red-600 mb-2">
-              Dịch Vụ Phục Hồi Xe Tai Nạn
-            </h2>
-            <p className="text-gray-700 leading-relaxed">
-              Phục hồi xe tai nạn là việc kiểm tra, sửa chữa các bộ phận trong và ngoài xe sau khi
-              xảy ra va chạm. Dù mức độ nặng hay nhẹ, chủ xe cũng đưa xe tới garage uy tín để kiểm tra
-              và phát hiện các vấn đề tiềm ẩn...
-              <a href="#" className="text-red-600 font-medium ml-1 hover:underline">
-                Xem thêm &gt;&gt;
+      <p className="text-gray-700 mb-10 leading-relaxed text-justify">
+        <strong>Biển Số Hoàng</strong> tự hào mang đến chuỗi dịch vụ hoàn thiện
+        dành cho xe máy và ô tô. Với kinh nghiệm nhiều năm trong lĩnh vực ép và
+        gia công biển số, chúng tôi luôn đặt chất lượng, thẩm mỹ và độ bền lên hàng đầu.
+      </p>
+
+      {/* Danh sách dịch vụ */}
+      <div className="grid md:grid-cols-3 gap-8">
+        {services.map((item, i) => (
+          <div
+            key={i}
+            className="bg-white rounded-xl shadow-md hover:shadow-xl overflow-hidden transition transform hover:-translate-y-1"
+          >
+            <img
+              src={item.img}
+              alt={item.title}
+              className="w-full h-56 object-cover"
+            />
+            <div className="p-5">
+              <h3 className="font-semibold text-red-600 text-lg mb-2">
+                {item.title}
+              </h3>
+              <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                {item.desc}
+              </p>
+              <a
+                href="https://zalo.me/0971133799"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-red-600 text-white text-sm px-5 py-2 rounded-md hover:bg-red-700 transition"
+              >
+                Liên hệ Zalo
               </a>
-            </p>
-          </div>
-        </div>
-
-        {/* Danh sách bài nhỏ bên phải */}
-        <div className="space-y-4">
-          <div className="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden">
-            <img src="/anh1.png" alt="Ưu đãi dịch vụ" className="h-36 w-full object-cover" />
-            <div className="p-4">
-              <p className="text-sm text-gray-500 mb-1">📅 22-09-2025</p>
-              <h3 className="text-lg font-semibold text-red-600 hover:underline">
-                Ưu Đãi Đặc Biệt – Giảm Giá 20% Cho Khách Hàng Mới
-              </h3>
             </div>
           </div>
-
-          <div className="bg-white rounded-xl shadow hover:shadow-lg transition overflow-hidden">
-            <img src="/anh1.png" alt="Xe bị rỉ dầu" className="h-36 w-full object-cover" />
-            <div className="p-4">
-              <p className="text-sm text-gray-500 mb-1">📅 12-09-2025</p>
-              <h3 className="text-lg font-semibold text-red-600 hover:underline">
-                Xe Bị Rỉ Dầu: Nguyên Nhân &amp; Cách Khắc Phục An Toàn
-              </h3>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
 
-      {/* Section: Bảo dưỡng & sửa chữa ô tô */}
-      <section className="mb-16">
-        <h2 className="text-2xl font-bold border-b-2 border-red-600 inline-block mb-6">
-          Bảo Dưỡng &amp; Sửa Chữa Ô Tô
-        </h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="md:col-span-2 bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-            <img src="/anh1.png" alt="Bảo dưỡng ô tô" className="w-full h-72 object-cover" />
-            <div className="p-6">
-              <p className="text-sm text-gray-500 mb-2">📅 22-09-2025</p>
-              <h3 className="text-xl font-semibold text-red-600 mb-2">
-                Ưu Đãi Đặc Biệt Cho Dịch Vụ Bảo Dưỡng Xe Ô Tô
-              </h3>
-              <p className="text-gray-700">
-                Khi sử dụng dịch vụ bảo dưỡng định kỳ, bạn sẽ nhận ngay ưu đãi giảm 20% cho lần tiếp theo...
-                <a href="#" className="text-red-600 ml-1 hover:underline">
-                  Xem thêm &gt;&gt;
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            {[
-              "5 Bí Quyết Giúp Xe Luôn Bền Bỉ",
-              "3 Cách Kiểm Tra Bảo Hành Chính Xác",
-              "Xe Trầy Xước – Mẹo Xử Lý Hiệu Quả",
-              "Bảo Dưỡng Ô Tô Định Kỳ Là Gì?",
-            ].map((title, i) => (
-              <div
-                key={i}
-                className="flex items-center gap-3 bg-white p-3 rounded-lg shadow hover:shadow-md transition"
-              >
-                <img src="/anh1.png" className="w-24 h-16 rounded-md object-cover" />
-                <div>
-                  <h4 className="font-semibold text-red-600 leading-snug">{title}</h4>
-                  <p className="text-sm text-gray-500">📅 07-09-2025</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section: Sơn phục hồi & nâng cấp thân vỏ */}
-      <section className="mb-16">
-        <h2 className="text-2xl font-bold border-b-2 border-red-600 inline-block mb-6">
-          Sơn Phục Hồi &amp; Nâng Cấp Thân Vỏ
-        </h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="md:col-span-2 bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-            <img src="/anh1.png" alt="Sơn thân vỏ ô tô" className="w-full h-72 object-cover" />
-            <div className="p-6">
-              <p className="text-sm text-gray-500 mb-2">📅 08-09-2025</p>
-              <h3 className="text-xl font-semibold text-red-600 mb-2">
-                5 Giải Pháp Sơn Và Phục Hồi Thân Vỏ Hiệu Quả
-              </h3>
-              <p className="text-gray-700">
-                Quy trình sơn xe tiêu chuẩn giúp xe lấy lại vẻ đẹp ban đầu, bảo vệ lớp sơn bền lâu...
-                <a href="#" className="text-red-600 ml-1 hover:underline">
-                  Xem thêm &gt;&gt;
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            {[
-              "Sơn Lazang Ô Tô Thẩm Mỹ",
-              "Sơn Đổi Màu Xe Ô Tô Sang Trọng",
-              "Báo Giá Dịch Vụ Sơn Xe Mới Nhất 2024",
-            ].map((title, i) => (
-              <div
-                key={i}
-                className="flex items-center gap-3 bg-white p-3 rounded-lg shadow hover:shadow-md transition"
-              >
-                <img src="/anh1.png" className="w-24 h-16 rounded-md object-cover" />
-                <div>
-                  <h4 className="font-semibold text-red-600 leading-snug">{title}</h4>
-                  <p className="text-sm text-gray-500">📅 05-08-2024</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section: Cứu hộ ô tô */}
-      <section className="mb-16">
-        <h2 className="text-2xl font-bold border-b-2 border-red-600 inline-block mb-6">
-          Cứu Hộ Ô Tô
-        </h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="md:col-span-2 bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden">
-            <img src="/anh1.png" alt="Cứu hộ ô tô" className="w-full h-72 object-cover" />
-            <div className="p-6">
-              <p className="text-sm text-gray-500 mb-2">📅 08-09-2025</p>
-              <h3 className="text-xl font-semibold text-red-600 mb-2">
-                Top 5 Dịch Vụ Cứu Hộ Ô Tô Nhanh Chóng, An Toàn Được Tin Chọn
-              </h3>
-              <p className="text-gray-700">
-                Dịch vụ cứu hộ ô tô uy tín giúp khắc phục sự cố nhanh chóng 24/7, đảm bảo an toàn cho hành trình...
-                <a href="#" className="text-red-600 ml-1 hover:underline">
-                  Xem thêm &gt;&gt;
-                </a>
-              </p>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            {[
-              "Sửa Chữa Lưu Động",
-              "Dịch Vụ Sửa Xe Tại Nhà",
-              "Khi Nào Cần Gọi Cứu Hộ Ô Tô?",
-            ].map((title, i) => (
-              <div
-                key={i}
-                className="flex items-center gap-3 bg-white p-3 rounded-lg shadow hover:shadow-md transition"
-              >
-                <img src="/anh1.png" className="w-24 h-16 rounded-md object-cover" />
-                <div>
-                  <h4 className="font-semibold text-red-600 leading-snug">{title}</h4>
-                  <p className="text-sm text-gray-500">📅 01-09-2025</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Đoạn kết */}
+      <div className="text-center mt-12">
+        <p className="text-gray-700 max-w-3xl mx-auto leading-relaxed">
+          Với phương châm <strong>“Uy tín tạo nên thương hiệu”</strong>, Biển Số Hoàng
+          luôn không ngừng cải tiến để phục vụ khách hàng tốt nhất. Hãy để chúng tôi giúp
+          bạn sở hữu một bộ biển số đẹp, bền và chuẩn form nhất!
+        </p>
+        <a
+          href="https://zalo.me/0971133799"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-6 bg-red-600 text-white px-8 py-3 rounded-md font-semibold uppercase hover:bg-red-700 transition"
+        >
+          Nhắn Zalo Ngay
+        </a>
+      </div>
     </div>
   );
 }

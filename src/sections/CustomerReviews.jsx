@@ -4,17 +4,17 @@ const reviews = [
   {
     name: "Anh Tuấn (Hà Nội)",
     text: "Biển ép cực đẹp, chắc chắn, thẩm mỹ cao. Làm nhanh, giá tốt!",
-    img: "/anh1.png",
+    img: "https://i.postimg.cc/tJ5KbNML/anh18.png",
   },
   {
     name: "Chị Hương (Bắc Ninh)",
     text: "Rất hài lòng, nhân viên nhiệt tình, bảo hành đầy đủ. Sẽ giới thiệu thêm bạn bè!",
-    img: "/anh1.png",
+    img: "https://i.postimg.cc/x8RwQ34B/anh19.png",
   },
   {
     name: "Anh Phong (TP.HCM)",
     text: "Biển số ép đẹp, không bị cong gãy, mưa nắng thoải mái. Quá uy tín!",
-    img: "/anh1.png",
+    img: "https://i.postimg.cc/8cH2Gm02/anh20.png",
   },
 ];
 
@@ -31,11 +31,15 @@ export default function CustomerReviews() {
             key={i}
             className="bg-white p-5 rounded-xl shadow-md hover:shadow-lg transition"
           >
-            <img
-              src={r.img}
-              alt={r.name}
-              className="rounded-md mb-3 w-full h-48 object-cover"
-            />
+            {/* Ảnh hiển thị theo tỉ lệ gần giống điện thoại nhưng rộng hơn chút */}
+            <div className="relative w-full aspect-[3/4] overflow-hidden rounded-md mb-3">
+              <img
+                src={r.img}
+                alt={r.name}
+                className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+
             <p className="text-gray-600 text-sm mb-3 leading-relaxed">{r.text}</p>
             <p className="font-semibold text-gray-900 text-sm">{r.name}</p>
           </div>
