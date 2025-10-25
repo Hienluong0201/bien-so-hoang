@@ -23,8 +23,6 @@ function App() {
     <Router>
       <HeaderTop />
       <NavBar />
-
-   
       <SocialFloating />
 
       {/* Nội dung từng trang */}

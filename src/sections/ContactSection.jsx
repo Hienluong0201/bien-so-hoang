@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function ContactSection() {
   return (
     <section className="relative bg-gradient-to-br from-gray-50 to-red-50 py-16 px-6 overflow-hidden">
-      {/* Vệt sáng nền */}
+      {/* 🌟 Nền mờ */}
       <div className="absolute inset-0 bg-[url('https://i.postimg.cc/nrSZDQ8J/ch11.jpg')] bg-cover bg-center opacity-10"></div>
       <div className="absolute inset-0 bg-white/60 backdrop-blur-sm"></div>
 
@@ -26,24 +26,34 @@ export default function ContactSection() {
             <h3 className="text-xl font-bold text-gray-800 border-l-4 border-red-600 pl-3">
               Thông Tin Cửa Hàng
             </h3>
+
             <p className="text-gray-700">
-              📍 <span className="font-semibold">Địa chỉ:</span> 69 Đường Số 4, Phường 15, Quận Tân Bình, TP. Hồ Chí Minh
+              📍 <span className="font-semibold">Địa chỉ:</span>{" "}
+              80 Đ. Chế Lan Viên, Tây Thạnh, Tân Phú, TP. Hồ Chí Minh
             </p>
+
             <p className="text-gray-700">
               ☎️ <span className="font-semibold">Hotline:</span>{" "}
-              <a href="tel:0971133799" className="text-red-600 font-bold hover:underline">
+              <a
+                href="tel:0971133799"
+                className="text-red-600 font-bold hover:underline"
+              >
                 0971 133 799
               </a>
             </p>
+
             <p className="text-gray-700">
               💬 <span className="font-semibold">Zalo:</span>{" "}
               <a
                 href="https://zalo.me/0971133799"
                 className="text-blue-600 font-medium hover:underline"
+                target="_blank"
+                rel="noreferrer"
               >
                 0971 133 799
               </a>
             </p>
+
             <p className="text-gray-700">
               🌐 <span className="font-semibold">Website:</span>{" "}
               <a
@@ -55,23 +65,26 @@ export default function ContactSection() {
                 epbiensohoang.com
               </a>
             </p>
+
+            {/* ✅ Facebook chính thức */}
             <p className="text-gray-700">
               💎 <span className="font-semibold">Facebook:</span>{" "}
               <a
-                href="https://www.facebook.com/share/1aQa3FTwTv/?mibextid=wwXIfr"
+                href="https://www.facebook.com/hoang.ep.bien.so/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-blue-600 underline"
+                className="text-blue-600 underline font-medium"
               >
-                fb.com/epbiensodep
+                facebook.com/hoang.ep.bien.so
               </a>
             </p>
+
             <p className="text-gray-500 text-sm mt-3">
               🕘 <span className="font-medium text-gray-700">Giờ mở cửa:</span>{" "}
               <br /> 8:00 – 20:00 (Tất cả các ngày trong tuần)
             </p>
 
-            {/* 🔘 Nút chỉ đường */}
+            {/* 📍 Nút chỉ đường */}
             <motion.a
               href="https://www.google.com/maps/dir/?api=1&destination=10.812193,106.626406"
               target="_blank"
@@ -84,7 +97,7 @@ export default function ContactSection() {
             </motion.a>
           </div>
 
-          {/* 🗺️ Bản đồ Google */}
+          {/* 🗺️ Google Maps */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -104,7 +117,7 @@ export default function ContactSection() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
 
-            {/* viền sáng */}
+            {/* Hiệu ứng viền sáng */}
             <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-white/20 pointer-events-none"></div>
           </motion.div>
         </div>

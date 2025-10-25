@@ -70,7 +70,7 @@ export default function NavBar() {
 
   {/* Icon Zalo */}
   <a
-    href="https://zalo.me/0568050505"
+    href="https://zalo.me/0971133799"
     target="_blank"
     rel="noopener noreferrer"
     

@@ -5,12 +5,12 @@ import "swiper/css";
 
 export default function WelcomeSection() {
   const images = [
-    "https://i.postimg.cc/VLMG6fvT/anh1.jpg",
-    "https://i.postimg.cc/L6fCX95w/anh2.jpg",
-    "https://i.postimg.cc/SN8TsSRt/anh3.jpg",
-    "https://i.postimg.cc/3JpSR8WM/anh5.jpg",
-    "https://i.postimg.cc/dtdH1sDP/anh6.jpg",
-    "https://i.postimg.cc/rpz5DjgG/anh7.jpg",
+    "https://i.postimg.cc/SsCpgNnt/207.jpg",
+    "https://i.postimg.cc/mkBKV3f8/208.jpg",
+    "https://i.postimg.cc/dVpXgccD/210.jpg",
+    "https://i.postimg.cc/yYNbd872/211.jpg",
+    "https://i.postimg.cc/GtgzYvc2/212.jpg",
+    "https://i.postimg.cc/FsfV8drY/213.jpg",
   ];
 
   return (
