@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import ContactSection from "../sections/ContactSection"; 
 export default function CuaHang() {
   const bannerImages = [
     "https://i.postimg.cc/j2WmBn7p/ch2.jpg",
@@ -7,16 +7,29 @@ export default function CuaHang() {
     "https://i.postimg.cc/nr6gxV4N/cuahang1.jpg",
   ];
 
+  const storeImages = [
+    "https://i.postimg.cc/0jXxwJg1/ch10.jpg",
+    "https://i.postimg.cc/nrSZDQ8J/ch11.jpg",
+    "https://i.postimg.cc/SR1qMz04/ch13.jpg",
+    "https://i.postimg.cc/nrSZDQ8H/ch14.jpg",
+    "https://i.postimg.cc/J0YmkHfd/ch4.jpg",
+    "https://i.postimg.cc/D0pFX49N/ch5.jpg",
+    "https://i.postimg.cc/3Nf7v0sc/ch7.jpg",
+    "https://i.postimg.cc/yxpBZ3Mt/ch8.jpg",
+  ];
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % bannerImages.length);
-    }, 4000); // đổi ảnh mỗi 4s
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
-  return (
+  return ( 
+    <div>
+      
     <div className="max-w-7xl mx-auto px-4 md:px-8 py-10 bg-gray-50">
       {/* 🔥 Banner chính (Slider 3 ảnh) */}
       <section className="relative rounded-2xl overflow-hidden shadow-xl mb-16 h-96">
@@ -36,7 +49,9 @@ export default function CuaHang() {
             CỬA HÀNG BIỂN SỐ HOÀNG
           </h1>
           <p className="max-w-2xl text-lg md:text-xl leading-relaxed">
-            Chuyên gia trong lĩnh vực <strong>làm biển số xe, ép mica, phục hồi và gia công biển số inox cao cấp</strong> uy tín hàng đầu Việt Nam.
+            Chuyên gia trong lĩnh vực{" "}
+            <strong>làm biển số xe, ép mica, phục hồi và gia công biển số inox cao cấp</strong>{" "}
+            uy tín hàng đầu Việt Nam.
           </p>
 
           <div className="mt-5">
@@ -67,18 +82,18 @@ export default function CuaHang() {
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Giới Thiệu Cửa Hàng</h2>
         <div className="w-20 h-1 bg-red-600 mx-auto mb-6"></div>
         <span className="text-red-600 font-semibold">Biển Số Hoàng</span> được thành lập với sứ mệnh
-            mang đến những sản phẩm <strong>biển số xe chất lượng cao</strong>, chuẩn quy định và thẩm mỹ vượt trội.
-            Với đội ngũ kỹ thuật viên lành nghề, máy móc hiện đại và quy trình chuẩn xác, chúng tôi cam kết mang lại
-            trải nghiệm uy tín – nhanh chóng – chuyên nghiệp cho mọi khách hàng.
+        mang đến những sản phẩm <strong>biển số xe chất lượng cao</strong>, chuẩn quy định và thẩm mỹ vượt trội.
+        Với đội ngũ kỹ thuật viên lành nghề, máy móc hiện đại và quy trình chuẩn xác, chúng tôi cam kết mang lại
+        trải nghiệm uy tín – nhanh chóng – chuyên nghiệp cho mọi khách hàng.
       </section>
 
-      {/* 🖼 Không gian cửa hàng */}
+      {/* 🖼 Không gian cửa hàng (8 ảnh) */}
       <section className="mb-20">
         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
           Không Gian Cửa Hàng
         </h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          {bannerImages.map((src, i) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {storeImages.map((src, i) => (
             <div
               key={i}
               className="overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition"
@@ -157,43 +172,8 @@ export default function CuaHang() {
         </div>
       </section>
 
-      {/* 📍 Vị trí bản đồ */}
-      <section className="mb-20">
-        <h2 className="text-2xl font-bold text-gray-800 text-center mb-8">Vị Trí Cửa Hàng</h2>
-        <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-gray-200">
-          <iframe
-            title="Bản đồ Biển Số Hoàng"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.988477313886!2d106.62640607476565!3d10.812193289338772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bd6058f3fb1%3A0xd7f509b6d11c48c6!2zw4lwIGJp4buDbiBT4buRIEhvw6BuZw!5e0!3m2!1sen!2s!4v1761359872342!5m2!1sen!2s"
-            width="100%"
-            height="400"
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
-      </section>
-
-      {/* 📞 Liên hệ */}
-      <section id="lienhe" className="bg-red-600 text-white py-12 rounded-2xl text-center shadow-xl">
-        <h2 className="text-3xl font-bold mb-4">Liên Hệ Với Biển Số Hoàng</h2>
-        <p className="max-w-2xl mx-auto mb-6 text-lg">
-          Chúng tôi luôn sẵn sàng hỗ trợ bạn nhanh chóng nhất. Hãy liên hệ ngay để được tư vấn miễn phí.
-        </p>
-        <p className="text-lg">
-          📞 Hotline: <span className="font-semibold">0971 133 799</span>
-          <br />
-          📍 Địa chỉ: 123 Đường ABC, Quận Bình Tân, TP. Hồ Chí Minh
-          <br />
-          🌐 Website:{" "}
-          <a href="https://epbiensohoang.com" className="underline font-semibold text-white">
-            epbiensohoang.com
-          </a>
-        </p>
-      </section>
-
-      {/* 🧾 Footer */}
-      <footer className="mt-16 text-center text-gray-500 text-sm">
-        © 2025 Biển Số Hoàng. All rights reserved.
-      </footer>
     </div>
+      <ContactSection />
+     </div>
   );
 }

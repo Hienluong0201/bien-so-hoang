@@ -20,9 +20,9 @@ export default function HeaderTop() {
           >
             <FaFacebookF />
           </a>
-          <a href="#" className="hover:text-red-600">
+          {/* <a href="#" className="hover:text-red-600">
             <FaYoutube />
-          </a>
+          </a> */}
           <a
             href="https://www.tiktok.com/@epbiensochuyennghiep?_t=ZS-90jheb8fjsr&_r=1"
             target="_blank"
@@ -31,9 +31,9 @@ export default function HeaderTop() {
           >
             <FaTiktok />
           </a>
-          <a href="#" className="hover:text-pink-600">
+          {/* <a href="#" className="hover:text-pink-600">
             <FaInstagram />
-          </a>
+          </a> */}
         </div>
 
         <div className="flex items-center space-x-3">
