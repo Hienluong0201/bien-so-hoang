@@ -57,16 +57,17 @@ export default function NavBar() {
   </button>
 
   {/* Logo + chữ “Biển số Hoàng” */}
-  <div className="flex items-center space-x-2">
-    <img
-      src="/logo.png"
-      alt="Biển số Hoàng"
-      className="h-10 w-auto"
-    />
-    <span className="font-bold text-sm text-red-700 uppercase tracking-wide">
-      Biển số Hoàng
-    </span>
-  </div>
+<a href="/" className="flex items-center space-x-2">
+  <img
+    src="/logo.png"
+    alt="Biển số Hoàng"
+    className="h-10 w-auto"
+  />
+  <span className="font-bold text-sm text-red-700 uppercase tracking-wide">
+    Biển số Hoàng
+  </span>
+</a>
+
 
   {/* Icon Zalo */}
   <a

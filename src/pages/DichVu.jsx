@@ -6,7 +6,7 @@ export default function DichVu() {
     {
       title: "Ép Biển Số Ô Tô & Xe Máy Cao Cấp",
       img: "https://i.postimg.cc/RFs8cgxk/anh9.jpg",
-      desc: "Dịch vụ ép biển số bằng mica cao cấp, chống nước, chống cong gãy và phai màu. Biển phẳng tuyệt đối, chuẩn form, thẩm mỹ cao và bảo hành 12 tháng.",
+      desc: "Dịch vụ ép biển số bằng mica cao cấp, chống nước, chống cong gãy và phai màu. Biển phẳng tuyệt đối, chuẩn form, thẩm mỹ cao và bảo hành 24 tháng.",
     },
     {
       title: "Làm Biển Số Mới Theo Quy Chuẩn",
@@ -31,7 +31,7 @@ export default function DichVu() {
     {
       title: "Bảo Hành, Bảo Dưỡng & Hậu Mãi Chu Đáo",
       img: "https://i.postimg.cc/8cH2Gm02/anh20.png",
-      desc: "Tất cả sản phẩm tại Biển Số Hoàng đều được bảo hành 12 tháng. Hỗ trợ kiểm tra, ép lại miễn phí nếu có lỗi kỹ thuật hoặc bong mép trong quá trình sử dụng.",
+      desc: "Tất cả sản phẩm tại Biển Số Hoàng đều được bảo hành 24 tháng. Hỗ trợ kiểm tra, ép lại miễn phí nếu có lỗi kỹ thuật hoặc bong mép trong quá trình sử dụng.",
     },
   ];
 

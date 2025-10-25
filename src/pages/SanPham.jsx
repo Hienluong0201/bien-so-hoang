@@ -1,11 +1,11 @@
 export default function SanPham() {
   const items = [
-    { truoc: "/anh1.png", sau: "/anh1.png" },
-    { truoc: "/anh1.png", sau: "/anh1.png" },
-    { truoc: "/anh1.png", sau: "/anh1.png" },
-    { truoc: "/anh1.png", sau: "/anh1.png" },
-    { truoc: "/anh1.png", sau: "/anh1.png" },
-    { truoc: "/anh1.png", sau: "/anh1.png" },
+    { truoc: "https://i.postimg.cc/JzxGR85p/truoc1.jpg", sau: "/anh1.png" },
+    { truoc: "https://i.postimg.cc/QdmHjDJ4/truoc2.jpg", sau: "/anh1.png" },
+    { truoc: "https://i.postimg.cc/y8sDqxcM/truoc3.jpg", sau: "/anh1.png" },
+    { truoc: "https://i.postimg.cc/mgBPxk7x/truoc4.jpg", sau: "/anh1.png" },
+    { truoc: "https://i.postimg.cc/vDws8mYR/anh1-1.jpg", sau: "https://i.postimg.cc/3JpSR8WM/anh5.jpg" },
+    { truoc: "https://i.postimg.cc/x1wFTrjM/truoc5.jpg", sau: "https://i.postimg.cc/3JpSR8WM/anh5.jpg" },
   ];
 
   return (

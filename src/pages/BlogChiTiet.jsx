@@ -193,15 +193,13 @@ Dịch vụ ép và gửi tận nơi, đóng gói kỹ lưỡng, đảm bảo an
 
 - Không nên dùng hóa chất mạnh hoặc cồn để lau biển.  
 - Khi rửa xe, chỉ cần xịt nhẹ và lau bằng khăn mềm.  
-- Nếu đi đường dài, va chạm mạnh gây cong mica, có thể mang lại cửa hàng để được **bảo hành miễn phí trong 12 tháng**.  
+- Nếu đi đường dài, va chạm mạnh gây cong mica, có thể mang lại cửa hàng để được **bảo hành miễn phí trong 24 tháng**.  
 - Sau 2–3 năm, nên ép lại để giữ thẩm mỹ tối đa cho xe.
 
 ---
 
 ### 7️⃣ Giá ép biển số mica tại Biển Số Hoàng
 
-- **Xe máy:** 100.000 – 120.000đ / 1 biển (tùy loại mica).  
-- **Ô tô:** 200.000 – 250.000đ / 1 cặp (mica cao cấp, chuẩn form).  
 - **Combo ép + khung inox:** giảm ngay 10% khi làm cùng lúc.  
 
 Tất cả đều được bảo hành chính hãng, hỗ trợ đổi mới nếu phát hiện bong mép hoặc mờ trong quá trình sử dụng.
@@ -313,7 +311,7 @@ Nếu sau khi vệ sinh, anh em nhận thấy:
 - Viền biển sứt hoặc cong nhẹ.
 
 Thì đây là lúc nên mang đến **Biển Số Hoàng** để **ép lại mica hoặc phục hồi biển cũ.**  
-Chúng tôi sử dụng **máy ép nhiệt chuẩn form**, giúp biển phẳng tuyệt đối, sáng bóng như mới và **bảo hành 12 tháng**.
+Chúng tôi sử dụng **máy ép nhiệt chuẩn form**, giúp biển phẳng tuyệt đối, sáng bóng như mới và **bảo hành 24 tháng**.
 
 ---
 
@@ -340,7 +338,7 @@ Chúng tôi cam kết mang đến cho bạn **biển số đẹp – sáng – b
 ---
 
 **Biển Số Hoàng – Chuyên Ép, Làm Và Phục Hồi Biển Số Xe Ô Tô & Xe Máy.**  
-Uy tín – Tận tâm – Bảo hành 12 tháng toàn quốc.
+Uy tín – Tận tâm – Bảo hành 24 tháng toàn quốc.
 `,
 },
 
@@ -411,18 +409,18 @@ Tùy yêu cầu, bề mặt có thể được đánh bóng gương hoặc xử 
 5️⃣ **Kiểm tra & bàn giao:**  
 Mỗi biển đều được kiểm tra thủ công trước khi giao khách, đảm bảo **độ phẳng, độ sáng và độ bám khắc hoàn hảo.**
 
-Tất cả biển đều **bảo hành 12 tháng**, lỗi kỹ thuật đổi mới miễn phí 100%.
+Tất cả biển đều **bảo hành 24 tháng**, lỗi kỹ thuật đổi mới miễn phí 100%.
 
 ---
 
 ### 4️⃣ Các loại biển inox phổ biến
 
-**🔹 Biển inox 304:**  
+**🔹 Biển inox nguyên khối:**  
 Loại phổ biến nhất – độ bền cao, sáng bóng tự nhiên, giá hợp lý.  
 Phù hợp cho hầu hết các dòng xe máy, ô tô cá nhân.
 
-**🔹 Biển inox 316 cao cấp:**  
-Chống gỉ tốt hơn 304, chịu được môi trường muối biển hoặc khí hậu ẩm cao.  
+**🔹 Biển inox nguyên khối cao cấp:**  
+Chống gỉ tốt hơn nguyên khối, chịu được môi trường muối biển hoặc khí hậu ẩm cao.  
 Được ưa chuộng bởi khách hàng ở miền Trung và miền Nam.
 
 **🔹 Biển inox xước mờ (Brushed Finish):**  
@@ -440,7 +438,7 @@ Có thể phủ ánh vàng, bạc hoặc xanh tím – dành cho khách muốn b
 | Độ bền | 1–2 năm | 3–4 năm | **10+ năm** |
 | Thẩm mỹ | Sáng bóng | Dễ trầy | **Cao cấp, sang trọng** |
 | Chống gỉ | Trung bình | Thấp | **Tuyệt đối** |
-| Bảo hành | 6–12 tháng | Không | **12 tháng** |
+| Bảo hành | 12–24 tháng | Không | **24 tháng** |
 | Giá thành | Rẻ | Trung bình | Cao hơn 20–30% nhưng **đáng tiền** |
 
 Kết luận: Nếu bạn coi trọng **chất lượng, độ bền và đẳng cấp**, biển inox nguyên khối chắc chắn là lựa chọn xứng đáng nhất.
@@ -454,7 +452,7 @@ Tại **Biển Số Hoàng**, giá biển inox nguyên khối được niêm y�
 - **Xe máy:** 300.000 – 350.000đ / 1 biển.  
 - **Ô tô:** 600.000 – 700.000đ / 1 cặp (tùy loại inox và xử lý bề mặt).  
 - Combo **ép mica + khung inox** giảm thêm **10%**.  
-- **Bảo hành 12 tháng** – đổi mới nếu khắc lỗi, phai màu, cong mép hoặc mờ chữ.
+- **Bảo hành 24 tháng** – đổi mới nếu khắc lỗi, phai màu, cong mép hoặc mờ chữ.
 
 ---
 
@@ -565,19 +563,11 @@ Lớp mica nhập khẩu trong suốt, dày 2–3mm, chống tia UV, chống n�
 Chỉ **15–30 phút/biển**, khách có thể đợi lấy trực tiếp tại cửa hàng.
 
 **✅ Bảo hành rõ ràng:**  
-Mỗi biển phục hồi đều được **bảo hành 6–12 tháng** (tùy gói), cam kết đổi mới nếu bong mép, ố vàng hay trầy xước trong quá trình sử dụng.
+Mỗi biển phục hồi đều được **bảo hành 12-24 tháng** (tùy gói), cam kết đổi mới nếu bong mép, ố vàng hay trầy xước trong quá trình sử dụng.
 
 ---
 
 ### 5️⃣ Giá phục hồi biển số
-
-Bảng giá tại **Biển Số Hoàng** minh bạch, không phụ phí:
-
-| Loại xe | Dịch vụ | Giá (VNĐ) |
-|----------|----------|------------|
-| Xe máy | Phục hồi + ép mica | 100.000 – 120.000 |
-| Ô tô | Phục hồi cặp biển + ép mica | 200.000 – 250.000 |
-| Biển inox nguyên khối | Đánh bóng + ép lại | 300.000 – 350.000 |
 
 👉 Combo **phục hồi + khung inox** giảm thêm **10%** cho khách hàng làm 2 biển trở lên.  
 Tất cả đều được bảo hành và vệ sinh miễn phí lần đầu sau khi phục hồi.
@@ -619,7 +609,7 @@ Chúng tôi cam kết: **Không thay số – Không đổi form – Chỉ làm 
 
 ---
 
-**Biển Số Hoàng – Phục Hồi Biển Số Cũ Chuẩn Đẹp, Giữ Nguyên Giá Trị – Bảo Hành 12 Tháng Toàn Quốc.**
+**Biển Số Hoàng – Phục Hồi Biển Số Cũ Chuẩn Đẹp, Giữ Nguyên Giá Trị – Bảo Hành 24 Tháng Toàn Quốc.**
 `,
 },
 
@@ -715,13 +705,6 @@ Sau khi lắp xong, khách hàng được hướng dẫn cách tháo/lắp và v
 ### 5️⃣ Giá gắn cờ & ưu đãi tại Biển Số Hoàng
 
 Giá gắn cờ tại **Biển Số Hoàng** luôn minh bạch và cạnh tranh nhất thị trường:
-
-| Loại dịch vụ | Giá (VNĐ) |
-|---------------|------------|
-| Gắn cờ xe máy (1 lá cờ + trụ inox) | 80.000 – 100.000 |
-| Gắn cờ ô tô (2 lá cờ mini + giá đỡ) | 150.000 – 200.000 |
-| In cờ hội nhóm theo yêu cầu | 100.000 – 150.000/lá |
-| Combo cờ + khung biển inox | Giảm 10% |
 
 🎁 Đặc biệt: Tặng **vệ sinh & kiểm tra trụ miễn phí 1 lần** cho khách hàng gắn cờ trong tháng 10/2025.
 

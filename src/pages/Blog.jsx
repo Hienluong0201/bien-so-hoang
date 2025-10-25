@@ -34,7 +34,7 @@ export default function Blog() {
     {
       slug: "phuc-hoi-bien-so-cu",
       title: "Phục Hồi Biển Số Cũ – Lấy Lại Vẻ Đẹp Như Mới",
-      image: "https://i.postimg.cc/8cH2Gm02/anh20.png",
+      image: "https://i.postimg.cc/QNc7vRvj/tt1.jpg",
       date: "20/09/2025",
       desc: "Dịch vụ phục hồi biển số cũ giúp tân trang lại biển bị tróc sơn, cong méo hoặc phai màu. Quy trình chuyên nghiệp giúp biển sáng, phẳng và thẩm mỹ như ban đầu.",
     },

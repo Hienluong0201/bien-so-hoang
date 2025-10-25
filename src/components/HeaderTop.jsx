@@ -6,7 +6,7 @@ export default function HeaderTop() {
     <div className="flex justify-between items-center bg-white py-3 px-6 border-b border-red-500">
       {/* Logo */}
       <div className="flex items-center space-x-3">
-        <img src="/logo.png" alt="Hà Thành Garage" className="h-16 md:h-20 w-auto" />
+        <img src="/logo.png" alt="" className="h-16 md:h-20 w-auto" />
       </div>
 
       {/* Mạng xã hội + SĐT */}

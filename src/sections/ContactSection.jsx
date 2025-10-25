@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function ContactSection() {
   return (
-    <section className="relative bg-gradient-to-br from-gray-50 to-red-50 py-16 px-6 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-gray-50 to-red-50 px-6 overflow-hidden">
       {/* 🌟 Nền mờ */}
       <div className="absolute inset-0 bg-[url('https://i.postimg.cc/nrSZDQ8J/ch11.jpg')] bg-cover bg-center opacity-10"></div>
       <div className="absolute inset-0 bg-white/60 backdrop-blur-sm"></div>
@@ -15,7 +15,7 @@ export default function ContactSection() {
         viewport={{ once: true }}
         className="relative max-w-6xl mx-auto bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl p-8 md:p-12 border border-white/30"
       >
-        <h2 className="text-center text-3xl md:text-4xl font-extrabold mb-10 uppercase text-gray-800 tracking-wide">
+        <h2 className="text-center text-xl md:text-4xl font-extrabold mb-10 uppercase text-gray-800 tracking-wide">
           📍 ĐỊA CHỈ &{" "}
           <span className="text-red-600 drop-shadow-md">LIÊN HỆ NGAY</span>
         </h2>
