@@ -13,7 +13,8 @@ export default function LienHe() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://formspree.io/f/mpwoajny", {
+      // ✅ Formspree mới của bạn
+      const response = await fetch("https://formspree.io/f/xwpweydo", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

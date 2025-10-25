@@ -82,7 +82,7 @@ const postsData = {
     Để đảm bảo chất lượng, khách hàng nên chọn đơn vị uy tín như **Biển Số Hoàng**, chuyên:
     - Cung cấp khung biển inox 304, titan cao cấp, mica ép chính hãng.
     - Gia công theo kích thước chuẩn, bo viền chống cấn xước.
-    - Bảo hành lên đến 12 tháng – 1 đổi 1 nếu lỗi kỹ thuật.
+    - Bảo hành lên đến 24 tháng – 1 đổi 1 nếu lỗi kỹ thuật.
 
     Khách hàng có thể ghé trực tiếp cửa hàng hoặc đặt qua Zalo để được tư vấn mẫu phù hợp cho từng dòng xe (ô tô, xe máy, xe tay ga, xe côn...).
 
@@ -151,7 +151,7 @@ Toàn bộ quy trình ép tại **Biển Số Hoàng** được thực hiện th
 Không phải loại mica nào cũng có thể ép biển số. Hiện nay có 3 nhóm chất liệu chính:
 
 - **Mica thường (trung cấp):** giá rẻ, dễ trầy, dùng được 6–8 tháng.  
-- **Mica Nhật/Đài Loan:** trong suốt, bền, độ dày 2–3mm, chịu nhiệt cao.  
+- **Mica Nhật/Đài Loan:** trong suốt, bền, độ dày 3.5 mm, chịu nhiệt cao.  
 - **Mica chống tia UV cao cấp:** loại mà **Biển Số Hoàng** đang sử dụng – sáng rõ, không ố vàng, bền trên 2 năm.
 
 Đặc biệt, tại xưởng **Biển Số Hoàng**, chúng tôi chỉ dùng mica nhập khẩu, đạt tiêu chuẩn độ trong suốt ≥ 95%, ép bằng máy ép nhiệt tự động giúp bề mặt phẳng tuyệt đối.
