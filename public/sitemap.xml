@@ -1,66 +1,89 @@
-<!DOCTYPE html>
-<html lang="vi">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <title>Biển Số Hoàng - Ép Biển Số Xe Ô Tô & Xe Máy Uy Tín HCM</title>
-    <meta name="description" content="Biển Số Hoàng chuyên ép biển số ô tô, xe máy, phục hồi biển số cũ, làm biển inox nguyên khối, ép mica cao cấp. Nhanh - Đẹp - Chuẩn form - Bảo hành 12 tháng." />
-    <meta name="keywords" content="ép biển số, biển số ô tô, biển số xe máy, biển số inox, ép mica, phục hồi biển số, Biển Số Hoàng" />
-    <meta name="author" content="Biển Số Hoàng" />
+  <url>
+    <loc>https://epbiensohoang.com/</loc>
+    <priority>1.0</priority>
+  </url>
 
-    <link rel="canonical" href="https://epbiensohoang.com/" />
+  <url>
+    <loc>https://epbiensohoang.com/gioi-thieu</loc>
+    <priority>0.9</priority>
+  </url>
 
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
+  <url>
+    <loc>https://epbiensohoang.com/dich-vu</loc>
+    <priority>0.9</priority>
+  </url>
 
-    <!-- Open Graph / Zalo -->
-    <meta property="og:title" content="Biển Số Hoàng - Ép Biển Số Xe Ô Tô & Xe Máy Uy Tín" />
-    <meta property="og:description" content="Ép biển số ô tô, xe máy; phục hồi biển số cũ; biển inox nguyên khối." />
-    <meta property="og:image" content="https://i.postimg.cc/nr6gxV4N/cuahang1.jpg" />
-    <meta property="og:url" content="https://epbiensohoang.com/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="vi_VN" />
+  <url>
+    <loc>https://epbiensohoang.com/cua-hang</loc>
+    <priority>0.9</priority>
+  </url>
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Biển Số Hoàng - Ép Biển Số Xe Uy Tín" />
-    <meta name="twitter:description" content="Dịch vụ nhanh - đẹp - chuẩn form - bảo hành 12 tháng." />
-    <meta name="twitter:image" content="https://i.postimg.cc/nr6gxV4N/cuahang1.jpg" />
+  <url>
+    <loc>https://epbiensohoang.com/san-pham</loc>
+    <priority>0.8</priority>
+  </url>
 
-    <!-- Schema.org -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "AutoPartsStore",
-        "name": "Biển Số Hoàng",
-        "image": "https://i.postimg.cc/nr6gxV4N/cuahang1.jpg",
-        "url": "https://epbiensohoang.com",
-        "telephone": "0971 133 799",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "123 Đường ABC, Quận Bình Tân",
-          "addressLocality": "TP. Hồ Chí Minh",
-          "addressCountry": "VN"
-        },
-        "openingHours": "Mo-Su 08:00-20:00",
-        "sameAs": [
-          "https://www.facebook.com/share/1aQa3FTwTv/?mibextid=wwXIfr",
-          "https://www.tiktok.com/@epbiensochuyennghiep"
-        ]
-      }
-    </script>
+  <url>
+    <loc>https://epbiensohoang.com/phu-kien-chi-tiet</loc>
+    <priority>0.7</priority>
+  </url>
 
-    <meta name="theme-color" content="#dc2626" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
-  </head>
-  <body>
-    <noscript>Bạn cần bật JavaScript để sử dụng trang web này.</noscript>
-    <div id="root"></div>
-    <!-- Vite entry -->
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+  <url>
+    <loc>https://epbiensohoang.com/khuyen-mai</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/tin-tuc</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/blog</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/blog/chon-khung-bien-so</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/blog/ep-bien-so-mica-cao-cap</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/blog/ve-sinh-bien-so-xe</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/blog/bien-so-inox-nguyen-khoi</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/blog/phuc-hoi-bien-so-cu</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/blog/gan-co-o-to-xe-may</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/lien-he</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://epbiensohoang.com/404</loc>
+    <priority>0.1</priority>
+  </url>
+
+</urlset>
