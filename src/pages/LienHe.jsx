@@ -2,25 +2,46 @@ import React, { useState } from "react";
 
 export default function LienHe() {
   const [formData, setFormData] = useState({ name: "", phone: "", message: "" });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể.");
-    setFormData({ name: "", phone: "", message: "" });
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mpwoajny", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        alert("✅ Gửi thành công! Cảm ơn bạn đã liên hệ Biển Số Hoàng.");
+        setFormData({ name: "", phone: "", message: "" });
+      } else {
+        alert("❌ Có lỗi xảy ra, vui lòng thử lại sau!");
+      }
+    } catch (error) {
+      console.error(error);
+      alert("⚠️ Không thể gửi, vui lòng kiểm tra lại kết nối mạng.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
     <div className="min-h-screen bg-gray-50 py-10 px-6 md:px-20">
-      <h1 className="text-3xl font-bold text-red-700 mb-6 uppercase">Liên hệ</h1>
+      <h1 className="text-3xl font-bold text-red-700 mb-6 uppercase">
+        Liên Hệ Ngay Với Biển Số Hoàng
+      </h1>
 
-      <p className="text-gray-700 mb-8">
-        Hãy để lại lời nhắn hoặc liên hệ trực tiếp với{" "}
-        <span className="text-red-600 font-semibold">Biển số Hoàng</span> nếu bạn cần tư vấn, hỗ trợ
-        hoặc đặt hàng. Chúng tôi luôn sẵn sàng phục vụ bạn!
+      <p className="text-gray-700 mb-8 max-w-3xl">
+        Nếu bạn cần tư vấn, hỗ trợ kỹ thuật hoặc đặt hàng, hãy để lại thông tin bên dưới.
+        <strong className="text-red-600"> Biển Số Hoàng</strong> sẽ liên hệ lại sớm nhất có thể.
       </p>
 
       <div className="grid md:grid-cols-2 gap-10">
@@ -70,26 +91,49 @@ export default function LienHe() {
 
           <button
             type="submit"
-            className="w-full bg-red-600 text-white font-semibold py-2 rounded-md hover:bg-red-700 transition"
+            disabled={isSubmitting}
+            className={`w-full font-semibold py-2 rounded-md transition ${
+              isSubmitting
+                ? "bg-gray-400 text-white cursor-not-allowed"
+                : "bg-red-600 text-white hover:bg-red-700"
+            }`}
           >
-            Gửi liên hệ
+            {isSubmitting ? "Đang gửi..." : "Gửi liên hệ"}
           </button>
         </form>
 
         {/* Thông tin liên hệ */}
         <div>
-          <h2 className="text-xl font-semibold text-gray-800 mb-3">Thông tin liên hệ</h2>
+          <h2 className="text-xl font-semibold text-gray-800 mb-3">
+            Thông Tin Liên Hệ
+          </h2>
           <ul className="text-gray-700 space-y-2 mb-6">
-            <li>📞 Hotline: <span className="font-semibold">0568 050 505</span></li>
-            <li>📍 Địa chỉ: 123 Đường ABC, TP. Hồ Chí Minh</li>
-            <li>🌐 Website: <a href="https://epbiensohoang.com" className="text-red-600 hover:underline">epbiensohoang.com</a></li>
-            <li>💬 Zalo: <a href="https://zalo.me/0568050505" className="text-red-600 hover:underline">0568 050 505</a></li>
+            <li>📞 Hotline: <span className="font-semibold">0971 133 799</span></li>
+            <li>📍 Địa chỉ: 123 Đường ABC, Quận Bình Tân, TP. Hồ Chí Minh</li>
+            <li>
+              🌐 Website:{" "}
+              <a
+                href="https://epbiensohoang.com"
+                className="text-red-600 hover:underline"
+              >
+                epbiensohoang.com
+              </a>
+            </li>
+            <li>
+              💬 Zalo:{" "}
+              <a
+                href="https://zalo.me/0971133799"
+                className="text-red-600 hover:underline"
+              >
+                0971 133 799
+              </a>
+            </li>
           </ul>
 
           {/* Google Map */}
           <iframe
             title="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.502198294212!2d106.70098727576507!3d10.7733749592678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f39a52a03a3%3A0x7c3f12e727e10d08!2zU8ahbiBQaOG6oW0sIFBoxrDhu51uZyAxLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1678888888888!5m2!1svi!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.988477313886!2d106.62640607476565!3d10.812193289338772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bd6058f3fb1%3A0xd7f509b6d11c48c6!2zw4lwIGJp4buDbiBT4buRIEhvw6BuZw!5e0!3m2!1sen!2s!4v1761359872342!5m2!1sen!2s"
             width="100%"
             height="300"
             allowFullScreen=""

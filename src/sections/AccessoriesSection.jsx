@@ -12,13 +12,13 @@ export default function AccessoriesSection() {
     {
       slug: "bien-so-xe-may-inox",
       title: "Gia Công Biển Số Xe Máy Inox Nguyên Khối",
-      img: "https://i.postimg.cc/ZR0pjJ6s/anh12.png",
+      img: "https://i.postimg.cc/LhFp4s99/anh4.jpg",
       desc: "Gia công, ép biển số xe máy bằng inox nguyên khối, chống gãy, chống ố vàng, thẩm mỹ cao và tuổi thọ vượt trội.",
     },
     {
       slug: "phuc-hoi-bien-so-hu-nat",
       title: "Phục Hồi Biển Số Hư Nát – Thẩm Mỹ Như Mới",
-      img: "https://i.postimg.cc/LhFp4s99/anh4.jpg",
+      img: "https://i.postimg.cc/6qRzdrRW/anh200.png",
       desc: "Phục hồi, làm mới biển số bị móp, trầy, bong tróc. Ép lại bằng mica cao cấp, giữ nguyên số, chuẩn quy định, sáng đẹp như mới.",
     },
   ];

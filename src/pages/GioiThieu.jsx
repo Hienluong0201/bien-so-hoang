@@ -1,7 +1,8 @@
 import React from "react";
-
+import ContactSection from "../sections/ContactSection"; 
 export default function GioiThieu() {
   return (
+    <div>
     <div className="max-w-7xl mx-auto px-4 md:px-8 py-10">
       {/* Tiêu đề */}
       <h1 className="text-3xl font-bold border-b-2 border-red-600 inline-block mb-8">
@@ -39,7 +40,7 @@ export default function GioiThieu() {
         <div className="space-y-4">
           <div className="rounded-xl overflow-hidden shadow hover:shadow-lg transition bg-white">
             <img
-              src="https://i.postimg.cc/tJ5KbNML/anh18.png"
+              src="https://i.postimg.cc/v8PrDSVD/anhgt1.jpg"
               alt="Về chúng tôi"
               className="h-36 w-full object-cover"
             />
@@ -56,7 +57,7 @@ export default function GioiThieu() {
 
           <div className="rounded-xl overflow-hidden shadow hover:shadow-lg transition bg-white">
             <img
-              src="https://i.postimg.cc/x8RwQ34B/anh19.png"
+              src="https://i.postimg.cc/6624Q1Wz/anh11.jpg"
               alt="Chính sách bảo hành"
               className="h-36 w-full object-cover"
             />
@@ -101,32 +102,46 @@ export default function GioiThieu() {
               {
                 name: "Chị Thanh – Chủ Spa",
                 feedback: "Ép nhanh, giá tốt, hình thức đẹp – rất hài lòng!",
+                img: "https://i.postimg.cc/x8RwQ34B/anh19.png",
               },
               {
                 name: "Anh Tuấn – Tài xế công nghệ",
                 feedback: "Biển số chắc chắn, mưa gió thoải mái, phục vụ tận tâm.",
+                img: "https://i.postimg.cc/tJ5KbNML/anh18.png",
               },
               {
                 name: "Anh Long – Chủ Garage Auto",
                 feedback: "Làm việc chuyên nghiệp, giao đúng hẹn, bảo hành uy tín.",
+                img: "https://i.postimg.cc/8cH2Gm02/anh20.png",
+              },
+              {
+                name: "Chị Hương – Giáo viên",
+                feedback: "Rất chu đáo, nhân viên dễ thương, biển ép sáng bóng cực đẹp.",
+                img: "https://i.postimg.cc/V5P8sNY3/anh1.jpg",
+              },
+              {
+                name: "Anh Phong – Doanh nhân",
+                feedback: "Biển inox nguyên khối siêu bền, lắp lên nhìn sang hẳn luôn!",
+                img: "https://i.postimg.cc/v8gxmSY3/anh12.jpg",
               },
             ].map((item, i) => (
               <div
                 key={i}
-                className="flex gap-3 items-center bg-white p-3 rounded-lg shadow hover:shadow-md transition"
+                className="flex gap-3 items-center bg-white p-3 rounded-lg shadow hover:shadow-lg transition transform hover:-translate-y-1"
               >
                 <img
-                  src="https://i.postimg.cc/LhFp4s99/anh4.jpg"
-                  className="w-20 h-20 object-cover rounded-md"
+                  src={item.img}
+                  className="w-20 h-20 object-cover rounded-md border border-gray-200"
                   alt={item.name}
                 />
                 <div>
                   <h4 className="font-semibold text-red-600">{item.name}</h4>
-                  <p className="text-gray-600 text-sm">{item.feedback}</p>
+                  <p className="text-gray-600 text-sm italic">“{item.feedback}”</p>
                 </div>
               </div>
             ))}
           </div>
+
         </div>
       </section>
 
@@ -138,7 +153,7 @@ export default function GioiThieu() {
         <div className="grid md:grid-cols-3 gap-6">
           <div className="md:col-span-2 bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden">
             <img
-              src="https://i.postimg.cc/zv1tVHhY/anh13-1.png"
+              src="https://i.postimg.cc/3wg6THNS/anhtn.png"
               alt="Sự kiện thiện nguyện"
               className="w-full h-72 object-cover"
             />
@@ -153,32 +168,10 @@ export default function GioiThieu() {
               </p>
             </div>
           </div>
-
-          <div className="space-y-4">
-            {[
-              "Khai trương chi nhánh TP.HCM",
-              "Hợp tác cùng các hãng xe trong nước",
-              "Tham gia chương trình an toàn giao thông toàn quốc",
-            ].map((title, i) => (
-              <div
-                key={i}
-                className="flex items-center gap-3 bg-white p-3 rounded-lg shadow hover:shadow-md transition"
-              >
-                <img
-                  src="https://i.postimg.cc/RFs8cgxk/anh9.jpg"
-                  className="w-24 h-16 rounded-md object-cover"
-                  alt={title}
-                />
-                <div>
-                  <h4 className="font-semibold text-red-600 leading-snug">
-                    {title}
-                  </h4>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
     </div>
+      <ContactSection />
+  </div>
   );
 }

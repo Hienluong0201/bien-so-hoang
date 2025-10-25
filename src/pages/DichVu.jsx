@@ -1,4 +1,5 @@
 import React from "react";
+import ContactSection from "../sections/ContactSection"; 
 
 export default function DichVu() {
   const services = [
@@ -19,7 +20,7 @@ export default function DichVu() {
     },
     {
       title: "Làm Biển Số Bằng Inox Nguyên Khối",
-      img: "https://i.postimg.cc/ZR0pjJ6s/anh12.png",
+      img: "https://i.postimg.cc/qRczygqT/anh201.png",
       desc: "Gia công biển số inox nguyên khối chống gãy, chống ố vàng, bền vượt trội. Mặt biển sáng bóng, sang trọng, phù hợp với xe cao cấp.",
     },
     {
@@ -35,9 +36,10 @@ export default function DichVu() {
   ];
 
   return (
+    <div>
     <div className="max-w-7xl mx-auto px-4 md:px-8 py-10">
       {/* Tiêu đề */}
-      <h1 className="text-3xl font-bold border-b-2 border-red-600 inline-block mb-8">
+      <h1 className="text-2xl font-bold border-b-2 border-red-600 inline-block mb-8">
         Dịch Vụ Của Biển Số Hoàng
       </h1>
 
@@ -95,6 +97,8 @@ export default function DichVu() {
           Nhắn Zalo Ngay
         </a>
       </div>
+    </div>
+     <ContactSection />
     </div>
   );
 }
