@@ -68,7 +68,7 @@ export default function WelcomeSection() {
   <div className="relative w-full aspect-[9/16]">
     <iframe
       className="w-full h-full rounded-md shadow-lg"
-      src="https://www.youtube.com/embed/tK2LAXBOoKI"
+      src="https://www.youtube.com/embed/4uoeZSnMFIk"
       title="Biển Số Hoàng - Video Mới"
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
