@@ -19,12 +19,15 @@ export default function WelcomeSection() {
         {/* Tiêu đề */}
         <div className="text-center mb-6">
           <h2 className="text-sm md:text-lg font-bold uppercase">
-            Chào mừng đến với <span className="text-red-600">Biển Số Hoàng</span>
+            Chào mừng đến với{" "}
+            <span className="text-red-600">Biển Số Hoàng</span>
           </h2>
 
           <p className="text-gray-700 text-sm md:text-base mt-3 max-w-3xl mx-auto leading-relaxed">
-            Biển Số Hoàng – chuyên ép biển số, phục hồi biển số hư nát, gia công mica đạt chuẩn ISO, inox nguyên khối.
-            Cung cấp dịch vụ ép biển số ô tô, xe máy thẩm mỹ – bền bỉ – chuẩn form, cùng giải pháp hoàn thiện biển số chất lượng hàng đầu Việt Nam.
+            Biển Số Hoàng – chuyên ép biển số, phục hồi biển số hư nát, gia công
+            mica đạt chuẩn ISO, inox nguyên khối. Cung cấp dịch vụ ép biển số ô
+            tô, xe máy thẩm mỹ – bền bỉ – chuẩn form, cùng giải pháp hoàn thiện
+            biển số chất lượng hàng đầu Việt Nam.
           </p>
         </div>
 
@@ -63,20 +66,19 @@ export default function WelcomeSection() {
           </a>
         </div>
 
-        {/* Video YouTube */}
-       <div className="max-w-xs md:max-w-sm mx-auto">
-  <div className="relative w-full aspect-[9/16]">
-    <iframe
-      className="w-full h-full rounded-md shadow-lg"
-      src="https://www.youtube.com/embed/4uoeZSnMFIk"
-      title="Biển Số Hoàng - Video Mới"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-</div>
-
+        {/* Video YouTube (tỉ lệ ngang 16:9) */}
+        <div className="max-w-4xl mx-auto">
+          <div className="relative w-full aspect-video">
+            <iframe
+              className="w-full h-full rounded-md shadow-lg"
+              src="https://www.youtube.com/embed/c1pbo45eMd4"
+              title="Biển Số Hoàng - Video Ngang"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     </section>
   );
