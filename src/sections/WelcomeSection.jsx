@@ -64,18 +64,19 @@ export default function WelcomeSection() {
         </div>
 
         {/* Video YouTube */}
-        <div className="max-w-4xl mx-auto">
-          <div className="relative w-full aspect-video">
-            <iframe
-              className="w-full h-full rounded-md shadow-lg"
-              src="https://www.youtube.com/embed/wIL_VT3qBPE"
-              title="Biển Số Hoàng - Ép Biển Số Chuyên Nghiệp"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+       <div className="max-w-xs md:max-w-sm mx-auto">
+  <div className="relative w-full aspect-[9/16]">
+    <iframe
+      className="w-full h-full rounded-md shadow-lg"
+      src="https://www.youtube.com/embed/tK2LAXBOoKI"
+      title="Biển Số Hoàng - Video Mới"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
       </div>
     </section>
   );
